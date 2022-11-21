@@ -35,6 +35,7 @@
   font-weight: 600;
   font-size: 14px;
   color: var(--color-gray3);
+  transition: 0.3s ease;
 }
 
 .selected {
@@ -46,4 +47,13 @@
   color: white;
   font-weight: 600;
   font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.selected:hover {
+  filter: brightness(0.9);
+}
+
+.filter-item:hover {
+  filter: brightness(0.9);
 }
