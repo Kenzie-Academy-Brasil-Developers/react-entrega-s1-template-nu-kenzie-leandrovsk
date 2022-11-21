@@ -1,0 +1,34 @@
+.total {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  gap: 10px;
+  width: 100%;
+  padding: 20px 24px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+}
+
+.total div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-value {
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.total-value-title {
+  color: var(--color-gray4);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.total-value-desc {
+  color: var(--color-gray3);
+  font-weight: 400;
+  font-size: 12px;
+}
