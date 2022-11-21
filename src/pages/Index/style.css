@@ -1,0 +1,60 @@
+.index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--color-gray4);
+  font-family: "Nunito", sans-serif;
+}
+
+.index-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.index-container img {
+  max-width: 80%;
+}
+
+.index-container > span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.index-btn {
+  width: 241px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-primary);
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.index-btn:hover {
+  background-color: var(--color-primary2);
+}
+
+.index-title {
+  width: 350px;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 48px;
+  color: white;
+}
+
+.index-desc {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}

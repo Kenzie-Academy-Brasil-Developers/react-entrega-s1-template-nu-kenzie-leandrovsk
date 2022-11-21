@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px 15px;
+}
+
+.card-section {
+  width: 55%;
+  min-width: 400px;
+}
+
+.form-section {
+  width: 35%;
+}
+
+@media (width < 940px) {
+  .form-section {
+    width: 100%;
+  }
+  .card-section {
+    width: 100%;
+  }
+}
